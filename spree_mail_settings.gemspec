@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '2.4-stable', '< 4.0'
+  spree_version = '2.4.0', '< 4.0'
   s.add_runtime_dependency 'solidus_backend', spree_version
   s.add_runtime_dependency 'solidus_auth_devise', spree_version
 
